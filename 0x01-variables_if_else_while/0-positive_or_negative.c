@@ -1,14 +1,12 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#include <stdio.h>
 /**
  *  main - prints if thenumber is positive, negative or 0
  *  Return: Always 0
  */
 int main(void)
 {
-
 	int n;
 
 	srand(time(0));
@@ -22,9 +20,9 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else
+else
 	{
-		print("%d is negative\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
