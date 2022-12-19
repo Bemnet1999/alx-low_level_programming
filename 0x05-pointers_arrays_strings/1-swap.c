@@ -1,4 +1,6 @@
-wap_int - swaps the values of two integers
+#include "main.h"
+/**
+* wap_int - swaps the values of two integers
 * @a: integer to swap
 * @b: integer to swap
 */
